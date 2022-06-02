@@ -1,8 +1,6 @@
 from renko import Renko
 import csv
 from numpy import log as ln
-import smtplib
-from email.mime.text import MIMEText
 
 
 RESULTS = []
