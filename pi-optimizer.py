@@ -20,7 +20,8 @@ def main():
     result_string = ""
     sorted_charts = sorted(RESULTS, key=lambda i: i['score'], reverse=True)
     for _, i in enumerate(sorted_charts[:30]):
-        result_string = result_string + "\n" + str(i) 
+        result_string = result_string + "\n" + str(i)
+
     write_to_file(result_string)
 
 def backtest(brick_size, bricks, tick_count):
