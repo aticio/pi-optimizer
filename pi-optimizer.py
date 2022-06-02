@@ -50,8 +50,7 @@ def backtest(brick_size, bricks, tick_count):
 
 
 def get_tick_data():
-    # file = open("/tmp/tickrecorder.csv")
-    file = open("test.csv")
+    file = open("/tmp/tickrecorder.csv")
     csvreader = csv.reader(file)
     tick = []
     for row in csvreader:
